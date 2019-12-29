@@ -27,6 +27,7 @@
 此内存模块  内存溢出 == 电梯人数限制没达到，但是已经超重了。。。  
   
 对上面的描述进行总结，有以下几点可以着重记住：
-1. `2个异常`  
-2. `StackOverflowError`和`OutOfMemoryError`异常出现的原因   
-3. 主要用来`存`执行Java方法需要的信息的地方
+1. 这个区域是`线程私有的`  
+2. `2个异常`  
+3. `StackOverflowError`和`OutOfMemoryError`异常出现的原因   
+4. 主要用来`存`执行Java方法需要的信息的地方
